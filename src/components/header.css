@@ -1,0 +1,131 @@
+.hr{
+    border: 1px solid red;
+    width:80%;
+  }
+/*-- //header --*/
+
+  #home {
+      margin-top:-20px;
+      padding: 1em 0;
+      background-color: #000;
+  }
+  .email i, .phone i, .email em, .phone em,.email em a,.location i,.location em {
+      font-style: normal;
+      margin: 0 10px 0 0;
+      display: inline-block;
+      vertical-align: middle;
+      color:#fff;
+      font-size: 15px;
+      margin-top:5px;
+  }
+  .email, .phone {
+      margin: 0 20px 0 0;
+      display: inline-block;
+      vertical-align: middle;
+  }
+  span.email a:hover{
+    color: red;
+  }
+  .head-right {
+      float: right;
+  }
+  
+  
+.socials ul {
+    
+    padding: 0px;
+    list-style: outside none none;
+}
+.socials li {
+  
+    display: inline-block;
+    padding-right: 0.7em;
+    padding-bottom: 0.3em;
+}
+.socials  ul li a:hover {
+color: rgb(253, 0, 0);
+border-color: red;
+background-color: #000;
+}
+.socials  ul li a:hover i{
+   color: rgb(253, 0, 0);  
+}
+.socials ul li a{
+display: block;
+width: 38px;
+height: 38px;
+line-height: 30px;
+border-radius: 50%;
+border: 1px solid #000;
+transition: all 0.8s ease 0s;
+color: rgb(146, 146, 146);
+}
+.socials ul li a i{
+color: rgb(146, 146, 146);
+font-size: 20px;
+padding: 10px;
+}
+
+
+
+
+
+
+.top .top-left,
+.top .top-middle,
+.top .top-right {
+	padding: 0px;
+}
+
+.top-header {
+	background: #000;
+	padding: 15px 0;
+}
+
+.top-right {
+    margin-top:-4%;
+	text-align: right;
+	float: right;
+}
+
+.top-middle {
+	text-align: right;
+	padding: 0;
+}
+
+.top-left p {
+	color: #fff;
+	font-size: 15px;
+	margin-top: 3px;
+	letter-spacing: 1px;
+}
+
+.top-left i.fa.fa-map-marker {
+	margin-right: 7px;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.top-right a {
+    
+	margin-left:5px;
+	color: #000;
+	background: none;
+	padding: 5px 13px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 30px;
+	letter-spacing: 1px;
+	border: 1px solid #b5b6b8;
+	background: red;
+}
+
+.top-right a:hover {
+    color: #000;
+    text-decoration: none;
+	background:#fff;
+}
+
+span {
+	color: #fff;
+}

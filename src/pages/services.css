@@ -1,0 +1,28 @@
+.services-container{
+    color: #000000;
+    padding: 10px 0;  
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR1JXj14o-V1zwbycc1s-EJY2LH0LAZ2NNmoU3yY4QveopBF4Kx");
+  }
+  .services-divider {
+    padding:0;
+    margin:0;
+  }
+  .services-divider h1 {
+    margin: 10%;
+    text-align:center;
+    font-size:48px;
+    color: #000;
+  }
+  
+  @media only screen and (max-width: 700px){
+  .services-divider h1{
+    font-size: 20px;
+  }
+  p{
+    font-size: 14px;
+  }
+  }
+  

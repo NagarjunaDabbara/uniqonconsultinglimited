@@ -1,0 +1,35 @@
+.hrss{
+    border: 2px solid red;
+    width:20%;
+  }
+.brandsName{
+    text-align: center;
+    margin-top:20px;
+    font-size: 40px;
+}
+.top-brand{
+background-color: #fff;
+margin:80px 0;
+}
+
+.top-brand-wrap{
+background-color:#fff;
+display:flex;
+flex-wrap: wrap;
+padding:40px 0;
+}
+
+.top-brand-box{
+background-color: #fff;
+width:16%;
+margin:0 auto;
+padding:10px;
+}
+.top-brand-box img{
+    opacity:0.5;
+    width:100%;
+    height:auto
+}
+.top-brand-box img:hover{
+    opacity:1;
+}
