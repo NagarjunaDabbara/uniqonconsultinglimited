@@ -13,7 +13,7 @@ const slides = [
     {
       city: '',
     
-      img: 'https://images.pexels.com/photos/733740/pexels-photo-733740.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+      img: 'https://images.pexels.com/photos/19972/pexels-photo.jpg?cs=srgb&dl=city-night-bridge-river-19972.jpg&fm=jpg',
     },
     {
       city: '',

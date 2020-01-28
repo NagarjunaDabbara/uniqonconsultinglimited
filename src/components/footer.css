@@ -16,8 +16,8 @@
 
 .quotes{
     text-align: center;
-    font-size: 52px;
-   background: -webkit-linear-gradient(#333, #eee);
+    font-size: 30px;
+   background: -webkit-linear-gradient(#333, rgba(97, 93, 93, 0.849));
    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -27,6 +27,7 @@
 border-top: 1px solid #D1D1D1;
 background: #555 url("../assets/bg-footer.jpg") repeat scroll 0% 0%;
 color: #535353;
+
 }
 .footer{
 padding: 0px 0px 60px;
