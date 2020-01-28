@@ -1,5 +1,6 @@
 .contact-container{
-    color: #000000;
+  margin-top:-10px;
+   color: #000000;
     padding: 10px 0;  
     background-size: 100%;
     background-position: 50% 50%;
@@ -44,13 +45,19 @@ header {
 }
 
 .column {
-	flex: 1;
-	border: 1px solid gray;
-	margin: 2px;
+  flex: 1;
+  border-radius: 25px 50px;
+  border: 2px solid gray;
+  box-shadow: 5px 5px 5px grey;
+  margin: 2px;
 	padding: 10px;
 	&:first-child { margin-left: 0; }
 	&:last-child { margin-right: 0; }
 	
+}
+.column:hover{
+  box-shadow: 15px 15px 15px  grey;
+
 }
 
 footer {

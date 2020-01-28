@@ -3,8 +3,8 @@ import './cardBox.css'
 export default function cardBox() {
     return (
         <div>
-        <div className="container">
-        <strong><h1 className="Services">OUR SERVICES</h1></strong><hr className="hrs"/>
+              <div className="containers">
+        <strong><h1 className="Services"><span className="heading">OUR</span> SERVICES</h1></strong>
         <div className="card-deck">
           <div className="card">
             <img className="card-img-top" src="https://i.udemycdn.com/course/750x422/690284_b512.jpg" alt="Card image cap" />
@@ -40,7 +40,7 @@ export default function cardBox() {
             </div>
           </div>
           <div className="card">
-            <img className="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQswOmesf6rWYZ5yZ8tZGtuq740CEpQLKo-MClYMybpbhnUcPZj" alt="Card image cap" />
+            <img className="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAkoudBJ4S8sHPcnbz41op6i845I-26wywbtDDZD_jAiR02cQH" alt="Card image cap" />
             <div className="card-body">
               <h4 className="card-title">Centres of Excellence</h4><hr/>
               <h5 className="card-text">IT Consulting</h5>

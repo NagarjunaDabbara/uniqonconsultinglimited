@@ -1,5 +1,5 @@
 .contact-heading{
-    margin-left:5%;
+    margin-left:-0%;
 }
 /*-- gallery-bottom --*/
 .gallery-bottom{
@@ -38,6 +38,7 @@
 }
 .gallery-bottom a:hover {
     background: #fff;
+    text-decoration: none;
     color: red;
 }
 /*-- //gallery-bottom --*/

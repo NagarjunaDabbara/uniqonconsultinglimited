@@ -5,8 +5,8 @@ export default function patner() {
         <div>
            
            <div className="top-brand">
-               <div className="container">
-               <strong><h1 className="brandsName">OUR CLIENTS</h1></strong><hr className="hrss"/>
+               <div className="containerss">
+               <strong><h1 className="brandsName"><span className="heading">OUR</span> CLIENTS</h1></strong>
                <div className="top-brand-wrap">
                    <div className="top-brand-box">
                        <a href="">

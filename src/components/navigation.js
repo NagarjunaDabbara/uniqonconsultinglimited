@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 export default function navigation() {
     return (
         <div>
-            <Header/>
+                    <Header/>
            <nav>
         <input type="checkbox" id="check" />
         <label htmlFor="check" className="checkbtn">
@@ -22,6 +22,6 @@ export default function navigation() {
           <li><Link to="/contact">Contact</Link></li>      
             </ul>
       </nav>
-        </div>
+        </div>  
     )
 }

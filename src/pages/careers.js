@@ -3,6 +3,8 @@ import Navigation from '../components/navigation.js'
 import Footer from '../components/footer.js'
 import Partner from '../components/partner.js'
 import './careers.css'
+import ContactContent from '../components/contactContent.js'
+
 export default function careers() {
     return (
         <div>
@@ -16,7 +18,7 @@ export default function careers() {
 </div>
                <div className="text">
         <p>Uniqon is a fast growing organization and we are always on the lookout for skilled, talented and enthusiastic individuals to join our existing team. In return we offer a competitive salary and benefits package, excellent training opportunities and long term career progression in our company.</p>
-        <p>If you are interested in finding out more or would like to enroll for future vacancies please send your CV to info@uniqon.co.uk</p>
+        <p>If you are interested in finding out more or would like to enroll for future vacancies please send your CV to <u><a class="link"href="#">info@uniqon.co.uk</a></u></p>
         <table>
         <thead>
           <tr>
@@ -70,6 +72,7 @@ export default function careers() {
           Latest copy of resume in MS Word format to be emailed to info@uniqon.co.uk mentioning position applied in email subject. As an established international organisation we are an equal opportunity employer and our HR practices do not discriminate race, religion or sex. We also believe in maintaining best professional work disciplines offering complete freedom at work that help every individual innovate every day and balance between work and life joyfully.</p>
       </div>
       <Partner/>
+      <ContactContent/>
       <Footer/>
         </div>
     )

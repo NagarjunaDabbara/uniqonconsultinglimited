@@ -11,7 +11,7 @@ export default class home extends Component {
        
 const slides = [
     {
-      city: 'lllllllllllllllllllllllllllllllllllllllll',
+      city: '',
     
       img: 'https://images.pexels.com/photos/733740/pexels-photo-733740.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     },

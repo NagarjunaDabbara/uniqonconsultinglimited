@@ -14,7 +14,13 @@
     margin-right: 20px;
 }
 
-
+.quotes{
+    text-align: center;
+    font-size: 52px;
+   background: -webkit-linear-gradient(#333, #eee);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 /*FOOOTER*/
 .footer-area{
@@ -24,7 +30,7 @@ color: #535353;
 }
 .footer{
 padding: 0px 0px 60px;
-background: rgba(255, 255, 255, 0.89) none repeat scroll 0% 0%;
+background: rgba(255, 255, 255, 0.842) none repeat scroll 0% 0%;
 }
 .footer ul li i { 
     padding-right: 10px;
@@ -103,7 +109,7 @@ font-size: 13px;
     text-decoration: none;
 }
 .footer-menu li{
-  border-bottom: 1px solid rgba(255, 171, 0, 0.31);
+  border-bottom: 1px solid #000;
 }
 
 .footer-copy span{
@@ -185,7 +191,9 @@ ul.footer-blog li {
     background-color: #2D2D2D;
     border-color: #2D2D2D;
 }
-
+.social{
+margin-right: 10%;
+}
 .social ul {
     padding: 0px;
     list-style: outside none none;

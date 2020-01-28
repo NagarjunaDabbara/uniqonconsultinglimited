@@ -1,5 +1,7 @@
 import React from 'react'
 import './contactContent.css'
+import { Link } from 'react-router-dom'
+
 export default function contactContent() {
     return (
         <div>
@@ -12,7 +14,7 @@ export default function contactContent() {
               <p>WE ARE AWALYS AVAILABLE TO ANSWER YOUR QUESTIONS</p>
             </div>
             <div className="col-md-3 text-align">
-              <a href><strong>Contact Us</strong></a>
+              <Link to="/contact"><strong>Contact Us</strong></Link>
             </div>
           </div>
         </div>

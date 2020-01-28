@@ -1,5 +1,9 @@
+.link{
+color:red;
+}
 .careers-container{
-    color: #000000;
+	margin-top:-10px;
+   color: #000000;
     padding: 10px 0;  
     background-size: 100%;
     background-position: 50% 50%;

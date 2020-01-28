@@ -3,6 +3,8 @@ import Navigation from '../components/navigation.js'
 import Footer from '../components/footer.js'
 import './about.css'
 import Partner from '../components/partner.js'
+import ContactContent from '../components/contactContent.js'
+
 
 export default function about() {
     return (
@@ -26,6 +28,7 @@ export default function about() {
 <p>Our vision is to help our customers achieve their goals in  transforming their technology base through our unique approach.</p>
 </div>
 <Partner/>
+<ContactContent/>
 <Footer/>
         </div>
     )

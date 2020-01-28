@@ -1,5 +1,6 @@
 .services-container{
-    color: #000000;
+   margin-top:-10px;
+   color: #000000;
     padding: 10px 0;  
     background-size: 100%;
     background-position: 50% 50%;
@@ -26,3 +27,10 @@
   }
   }
   
+
+  .text a {
+    color: black;
+  }
+  .text a:hover {
+    color: red;
+  }
