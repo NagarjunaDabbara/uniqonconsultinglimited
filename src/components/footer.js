@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import logo from "../assets/logo.png";
 import "./footer.css";
 export default function Footer() {
@@ -17,7 +16,7 @@ export default function Footer() {
                   <div className="footer-title-line" />
                   <img
                     src={logo}
-                    alt=""
+                    alt="" name="uniqon"
                     className="wow pulse"
                     data-wow-delay="1s"
                   />

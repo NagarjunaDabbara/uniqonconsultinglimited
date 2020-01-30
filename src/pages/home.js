@@ -6,6 +6,8 @@ import HomeContent from '../components/homeContent.js'
 import Partner from '../components/partner.js'
 import ContactContent from '../components/contactContent.js'
 import Footer from '../components/footer.js'
+import logo from '../assets/logo.jpg'
+
 export default class home extends Component {
    render(){
        
@@ -21,17 +23,17 @@ const slides = [
     },
     {
       city: '',
-      country: 'Czech Republic',
+      country: '',
       img: 'https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     },
     {
       city: '',
-      country: 'Netherlands',
+      country: '',
       img: 'https://images.pexels.com/photos/1040157/pexels-photo-1040157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     },
     {
-      city: 'Moscow',
-      country: 'Russia',
+      city: '',
+      country: '',
       img: 'https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     },
   ];

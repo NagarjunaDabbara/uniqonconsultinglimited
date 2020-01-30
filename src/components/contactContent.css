@@ -1,6 +1,8 @@
 .contact-heading{
+    
     margin-left:-0%;
 }
+
 /*-- gallery-bottom --*/
 .gallery-bottom{
     background: #222;
@@ -26,7 +28,7 @@
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    background: red;
+    background: #1f9cc4;
     color: #fff;
     display: inline-block;
 	margin-top: 1em;
@@ -39,7 +41,7 @@
 .gallery-bottom a:hover {
     background: #fff;
     text-decoration: none;
-    color: red;
+    color: #1f9cc4;
 }
 /*-- //gallery-bottom --*/
 

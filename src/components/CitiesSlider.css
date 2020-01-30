@@ -1,4 +1,5 @@
 .slider {
+  margin-top:80px;
     overflow: hidden;
     position: relative;
     height: 70vh;
@@ -13,7 +14,7 @@
     text-align: center;
     font-size: 25px;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
+    letter-spacing: 0.5px;
     transition: all 0.5s 1s;
     transform: translateY(-30px);
     opacity: 0;

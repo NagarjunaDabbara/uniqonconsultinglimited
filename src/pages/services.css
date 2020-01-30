@@ -1,5 +1,5 @@
 .services-container{
-   margin-top:-10px;
+   margin-top:5%;
    color: #000000;
     padding: 10px 0;  
     background-size: 100%;
@@ -32,5 +32,5 @@
     color: black;
   }
   .text a:hover {
-    color: red;
+    color: #1f9cc4;
   }

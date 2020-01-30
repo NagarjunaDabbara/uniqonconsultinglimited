@@ -4,110 +4,66 @@ export default function header() {
   return (
     <div>
       <div className="background-image">
-        <div className="top-bar" id="home">
+              {/* header */}
+      <header>
+        <div className="header_topw3layouts_bar">
           <div className="container">
-            <div className="row">
-              <div className="col-md-8 top-left">
-                <span
-                  className="phone wow fadeInDown"
-                  data-wow-duration=".8s"
-                  data-wow-delay=".3s"
-                >
-                  <i className="glyphicon glyphicon-phone" />
-                  <em> +44 (0)2039 230700</em>
-                </span>
-                <span
-                  className="email wow fadeInDown"
-                  data-wow-duration=".8s"
-                  data-wow-delay=".3s"
-                >
-                  <i className="glyphicon glyphicon-send" />
-                  <em>
-                    <a href="">info@uniqon.co.uk</a>
-                  </em>
-                </span>
-              </div>
-              <div className="socials pull-right">
+            {/* header-top */}
+            <div className="row  py-lg-4 py-3">
+              <div className="col-xl-7 col-lg-6 header_agileits_left">
                 <ul>
+                  <li className="mr-3">
+                    <i className="fa fa-phone mr-2" /> +44 (0)2039 230700</li>
                   <li>
-                    <a className="wow fadeInUp animated" href>
-                      <i className="fa fa-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="wow fadeInUp animated"
-                      href
-                      data-wow-delay="0.2s"
-                    >
-                      <i className="fa fa-facebook" />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="wow fadeInUp animated"
-                      href
-                      data-wow-delay="0.3s"
-                    >
-                      <i className="fa fa-google-plus" />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="wow fadeInUp animated"
-                      href
-                      data-wow-delay="0.4s"
-                    >
-                      <i className="fa fa-instagram" />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="wow fadeInUp animated"
-                      href
-                      data-wow-delay="0.6s"
-                    >
-                      <i className="fa fa-dribbble" />
-                    </a>
+                    <i className="fa fa-envelope mr-2" />
+                    <a href="mailto:info@example.com">info@uniqon.co.uk</a>
                   </li>
                 </ul>
               </div>
-              <div className="clearfix" />
-            </div>
-          </div>
-
-          <hr className="hr" />
-          <div className="top-header">
-            <div className="container">
-              <div className="col-md-8 col-sm-8 col-xs-8 top-left">
-                <p>
-                  <i className="fa fa-map-marker" aria-hidden="true" />
-                  Central Milton Keynes,United Kingdom.
-                </p>
+              <div className="col-xl-5 col-lg-6 header_right text-center mt-lg-0 mt-2">
+                <div className="row">
+                  {/* social icons */}
+                  <div className="col-4 w3social-icons">
+                    <ul>
+                      <li>
+                        <a href="#" className="rounded-circle">
+                          <i className="fa fa-facebook-f" />
+                        </a>
+                      </li>
+                      <li className="px-2">
+                        <a href="#" className="rounded-circle">
+                          <i className="fa fa-whatsapp" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="rounded-circle">
+                          <i className="fa fa-linkedin" />
+                        </a>
+                      </li>
+                      <li className="pl-2">
+                        <a href="#" className="rounded-circle">
+                          <i className="fa fa-intagram" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  {/* //social icons */}
+                  <div className="col-4 header-loginw3ls text-lg-right text-center">
+                    <a href="#" className="log">  
+                      <i className="fa fa-user mr-2" />Employee Login </a>
+                  </div>
+                  <div className="col-4 header-loginw3ls">
+                    <a href="#" className="log">
+                      <i className="fa fa-user mr-2" />HRMS Login</a>
+                  </div>
+                </div>
               </div>
-              <div className="col-md-4 col-sm-4 col-xs-4 top-right">
-                <a
-                  href="https://uniqon.peoplehr.net/"
-                  target="_blank"
-                  className="login"
-                >
-                  <span />
-                  <strong>Employee Login</strong>
-                </a>
-                <a
-                  href="https://uniqon.peoplehr.net/"
-                  target="_blank"
-                  className="login"
-                >
-                  <span /> <strong>HRMS Login</strong>
-                </a>
-              </div>
-
-              <div className="clearfix" />
             </div>
-          </div>
+            {/*// header-top */}
+          </div></div></header>
+          <hr className="new2"/>
         </div>
-      </div>
-    </div>
+        </div>
+     
   );
 }
