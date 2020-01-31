@@ -16,7 +16,7 @@ export default function header() {
                     <i className="fa fa-phone mr-2" /> +44 (0)2039 230700</li>
                   <li>
                     <i className="fa fa-envelope mr-2" />
-                    <a href="info@uniqon.co.uk">info@uniqon.co.uk</a>
+                    <a href="mailto:info@uniqon.co.uk">info@uniqon.co.uk</a>
                   </li>
                 </ul>
               </div>
