@@ -22,36 +22,11 @@ export default function header() {
               </div>
               <div className="col-xl-5 col-lg-6 header_right text-center mt-lg-0 mt-2">
                 <div className="row">
-                  {/* social icons */}
-                  <div className="col-4 w3social-icons">
-                    <ul>
-                      <li>
-                        <a href="#" className="rounded-circle">
-                          <i className="fa fa-facebook-f" />
-                        </a>
-                      </li>
-                      <li className="px-2">
-                        <a href="#" className="rounded-circle">
-                          <i className="fa fa-whatsapp" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" className="rounded-circle">
-                          <i className="fa fa-linkedin" />
-                        </a>
-                      </li>
-                      <li className="pl-2">
-                        <a href="#" className="rounded-circle">
-                          <i className="fa fa-intagram" />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  {/* //social icons */}
+                  
                   <div className="col-4 header-loginw3ls text-lg-right text-center">
                     <a href="https://uniqon.peoplehr.net/" target="_blank" className="log">  
                       <i className="fa fa-user mr-2" />Employee Login </a>
-                  </div>
+                  </div>&nbsp;
                   <div className="col-4 header-loginw3ls">
                     <a href="https://uniqon.peoplehr.net/" target="_blank" className="log">
                       <i className="fa fa-user mr-2" />HRMS Login</a>

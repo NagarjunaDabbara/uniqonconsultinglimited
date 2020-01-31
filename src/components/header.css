@@ -4,9 +4,10 @@
   color: #535353;
 }
 hr.new2 {
-  border-top: 3px dashed #1f9cc4;
+  border-top: 1px dashed #1f9cc4;
   width:85%;
-  margin-bottom:-0%;
+  margin-bottom:-0px;
+
 
 }
 ul,
