@@ -16,7 +16,7 @@ export default function header() {
                     <i className="fa fa-phone mr-2" /> +44 (0)2039 230700</li>
                   <li>
                     <i className="fa fa-envelope mr-2" />
-                    <a href="mailto:info@example.com">info@uniqon.co.uk</a>
+                    <a href="info@uniqon.co.uk">info@uniqon.co.uk</a>
                   </li>
                 </ul>
               </div>
@@ -49,11 +49,11 @@ export default function header() {
                   </div>
                   {/* //social icons */}
                   <div className="col-4 header-loginw3ls text-lg-right text-center">
-                    <a href="#" className="log">  
+                    <a href="https://uniqon.peoplehr.net/" target="_blank" className="log">  
                       <i className="fa fa-user mr-2" />Employee Login </a>
                   </div>
                   <div className="col-4 header-loginw3ls">
-                    <a href="#" className="log">
+                    <a href="https://uniqon.peoplehr.net/" target="_blank" className="log">
                       <i className="fa fa-user mr-2" />HRMS Login</a>
                   </div>
                 </div>
